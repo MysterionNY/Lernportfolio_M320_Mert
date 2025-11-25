@@ -1,0 +1,50 @@
+@startuml
+actor User
+participant "GarageApp" as App
+participant "Garage" as Garage
+participant "Car" as Car
+
+== Fahrzeug registrieren ==
+
+User -> App: wählt "Fahrzeug registrieren"
+activate App
+
+App -> App: registerVehicleInteractive()
+App -> User: fragt Typ, Kennzeichen,\nBasis-Kosten, Türen
+User --> App: gibt Daten ein
+
+App -> Car: new Car(plate, baseCost, doors)
+activate Car
+Car --> App: Car-Objekt zurück
+deactivate Car
+
+App -> Garage: registerVehicle(car)
+activate Garage
+Garage --> App: Fahrzeug gespeichert
+deactivate Garage
+
+deactivate App
+
+== Alle Fahrzeuge reparieren ==
+
+User -> App: wählt "Alle Fahrzeuge reparieren"
+activate App
+
+App -> Garage: repairAll()
+activate Garage
+
+loop für jedes Vehicle in vehicles
+    Garage -> Car: calculateRepairCost()
+    activate Car
+    Car --> Garage: Kosten
+    deactivate Car
+
+    Garage -> Car: setRepaired(true)
+end
+
+Garage --> App: Reparatur abgeschlossen
+deactivate Garage
+
+deactivate App
+
+@enduml
