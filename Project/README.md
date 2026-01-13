@@ -209,15 +209,15 @@ KI wurde **unterstützend** eingesetzt, nicht zur vollständigen Code-Generierun
 ### Typische KI-Prompts:
 
 ```text
-Erstelle ein UML-Klassendiagramm für ein Idle Game mit Services und Achievements
+Generier mir ein Bild von diesen Tabs die ich extrahieren kann, also mach jeweils Workers Upgrades und Achievments, alle unangeklickt und dann noch einmal in einem Status wie sie angeklickt aussehen. Halt dich an das Design welches wir bereits verwenden. Hintergrund soll Transparent sein
 ```
 
 ```text
-Wie kann ich Achievements mit Progress und Claim-Status in Unity umsetzen?
+Extrahier diese ZIP und überprüf dies mit meinem UML, ob die Einstellungen korrekt sind
 ```
 
 ```text
-Wie strukturiere ich ein Unity-Projekt nach Clean Architecture Prinzipien?
+Wie passe ich mein Canvas im Unity Editor so an, dass ich am ende eine scrollable Entity für die Achievments habe
 ```
 
 Alle generierten Inhalte wurden:
