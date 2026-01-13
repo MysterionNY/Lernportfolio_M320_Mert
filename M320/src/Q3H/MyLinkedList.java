@@ -98,7 +98,7 @@ public class MyLinkedList<T> implements Iterable<T> {
     }
 
     private void unlink(Node<T> prev, Node<T> cur) {
-        if (prev == null) { // removing head
+        if (prev == null) {
             head = cur.next;
         } else {
             prev.next = cur.next;

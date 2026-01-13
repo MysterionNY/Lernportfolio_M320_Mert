@@ -1,0 +1,7 @@
+=== Delivery Report ===
+Total packages: 1
+Delivered: 0
+Stuck: 0
+Most common last location: 123
+
+-- Stuck packages --

@@ -4,7 +4,7 @@ import java.time.LocalDateTime;
 import java.util.Objects;
 
 public class ParcelPackage {
-    private final String trackingId; // unique
+    private final String trackingId;
     private final String recipientName;
     private final String address;
     private final MyLinkedList<ScanEvent> history = new MyLinkedList<>();
