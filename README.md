@@ -4,10 +4,10 @@
 
 ### 13.01.2026
 #### What did I solve/learn?
-I finished the project and presented it to the teacher
+I finished the project and presented it to the teacher. I also did an additional task given out by the teacher. Presenting both tasks (The package delivery system and the project) went as I expected and I am happy with the outcome I had.
 
 #### What challenges did I face?
--
+I knew the concept of Linked Lists, but I wasn't as familiar with the coding part, therefore I had to get some help with AI to get it done. 
 
 #### Whats my next coding goal?
 -
